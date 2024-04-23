@@ -41,12 +41,12 @@
              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, expedita, ab ex officia labore possimus enim quidem facilis debitis non, exercitationem porro quaerat! Aut tempora magnam commodi, ut sequi ea!</p>
             
              <div class="tab-titles">
-              <p class="tab-links active-links">Skills</p>
-              <p class="tab-links">Experience</p>
-              <p class="tab-links">Education</p>
+              <p class="tab-links active-links " onclick="opentab('skills')">Skills</p>
+              <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+              <p class="tab-links"  onclick="opentab('education')">Education</p>
              </div>
 
-             <div class="tab-contents">
+             <div class="tab-contents active-tab" id="skills">
               <ul>
                 <li><span>Competitive Programmer</span><br>Soving Problem various online site</li>
                 <li><span>Forntend Development</span><br>Web app Development</li>
@@ -54,7 +54,7 @@
               </ul>
              </div>
              
-             <div class="tab-contents">
+             <div class="tab-contents" id="experience">
               <ul>
                 <li><span>2020-Present</span><br>bsc in cse</li>
                 <li><span>2024-Present</span><br>Enternship at Brainstation-23</li>
@@ -62,7 +62,7 @@
               </ul>
              </div>
 
-             <div class="tab-contents">
+             <div class="tab-contents" id="education">
               <ul>
                 <li><span>2024</span><br>Bubt</li>
                 <li><span>2024</span><br>Brainstation-23</li>
@@ -74,6 +74,35 @@
          </div>
        </div>
      </div>
+
+<!----------------services---------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-regular fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo similique, praesentium, reprehenderit officiis quod cupiditate quibusdam, exercitationem alias possimus soluta cumque placeat deleniti eaque ducimus natus expedita molestiae? Cupiditate, necessitatibus.</p>
+          <a href="#">Learn more</a>
+        </div>
+
+        <div>
+          <h2>Web Development</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo similique, praesentium, reprehenderit officiis quod cupiditate quibusdam, exercitationem alias possimus soluta cumque placeat deleniti eaque ducimus natus expedita molestiae? Cupiditate, necessitatibus.</p>
+          <a href="#">Learn more</a>
+        </div>
+
+        <div>
+          <h2>Backend Development</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo similique, praesentium, reprehenderit officiis quod cupiditate quibusdam, exercitationem alias possimus soluta cumque placeat deleniti eaque ducimus natus expedita molestiae? Cupiditate, necessitatibus.</p>
+          <a href="#">Learn more</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
 	<script src="index.js"></script>
   </body>
 </html>
